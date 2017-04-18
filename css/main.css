@@ -48,7 +48,7 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
-.page-heading {
+h1 {
     font-family: Futura;
     font-weight: 700;
     font-size: 40px;
@@ -60,7 +60,7 @@ label[id=poids] {
     padding: 45px 0px;
     float: left;
 }
-label[id=dose] {
+li {
     font-family: Futura;
     font-weight: 700;
     font-size: 30px;
