@@ -25,18 +25,11 @@ li {
 }
 /* Dropdown Button */
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: black;
     color: white;
     padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-/* Compute Result Button */
-.computeresult {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-weight: 700;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -44,10 +37,6 @@ li {
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #3e8e41;
-}
-/* Compute Result button on hover & focus */
-.computeresult:hover, .dropbtn:focus {
     background-color: #3e8e41;
 }
 
