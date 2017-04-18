@@ -32,9 +32,22 @@ li {
     border: none;
     cursor: pointer;
 }
+/* Compute Result Button */
+.computeresult {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+/* Compute Result button on hover & focus */
+.computeresult:hover, .dropbtn:focus {
     background-color: #3e8e41;
 }
 
