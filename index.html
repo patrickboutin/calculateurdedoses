@@ -13,24 +13,24 @@
   			<input type="numeric" id="fname">
 		</form>
 	</div>
-	<div class="unit">
-		<button>Unité</button>
-		<ul>
-			<li>KG</li>
-			<li>LBS</li>
-		</ul>
+	<div class="dropdown">
+  		<button onclick="myFunction()" class="dropbtn">Unité</button>
+  		<div id="UnitDropdown" class="dropdown-content">
+    			<a href="#">KG</a>
+			<a href="#">LBS</a>
+  		</div>
 	</div>
-	<div class="medication">
-		<button>Médicament</button>
-		<ul>
-			<li>Ibuprofène - 100mg/5ml</li>
-			<li>Ibuprofène - 200mg/5ml</li>
-			<li>Acétaminophène - 80mg/ml</li>
-			<li>Acétaminophène - 160mg/5ml</li>
-		</ul>
+	<div class="dropdown">
+  		<button onclick="myFunction()" class="dropbtn">Médicament</button>
+  		<div id="MedicationDropdown" class="dropdown-content">
+    			<a href="#">Ibuprofène - 100mg/5ml</a>
+			<a href="#">Ibuprofène - 200mg/5ml</a>
+			<a href="#">Acétaminophène - 80mg/ml</a>
+			<a href="#">Acétaminophène - 160mg/5ml</a>
+  		</div>
 	</div>
 	<div class="computeresult">
-		<button>Calculez</button>
+		<button onclick="CalculateFunction()" class="calculate">Calculez</button>
 	</div>		
 </body>
 </html>
