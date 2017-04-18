@@ -1,93 +1,38 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Calculateur de doses</h1>
-
+<!doctype html>
 <html>
 <head>
-  <link type="text/css" rel="stylesheet" href="css/main.css" />
+	<title>Calculateur de Doses</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css"/>
 </head>
 <body>
-
-<!-- <h2>Clickable Dropdown</h2> -->
-<!--<p>Click on the button to open the dropdown menu.</p> -->
-<div id="1">
-<form>
-  <label id="poids">Poids:</label>
-  <input type="numeric" id="fname">
-</form>
-</div>
-<div id="2" class="dropdown">
-<button onclick="myFunction2()" class="dropbtn">Unité</button>
-  <div id="myDropdown2" class="dropdown-content">
-    <a option value="1">KG</a>
-    <a option value="0.453592">LBS</a>
-  </div>
-</div>
-<p>
-</p>
-<div class="dropdown">
-  <button onclick="myFunction1()" class="dropbtn">Médicament</button>
-  <div id="myDropdown1" class="dropdown-content">
-    <a option value="20">Ibuprofène - 100mg/5ml</a>
-    <a option value="40">Ibuprofène - 200mg/5ml</a>
-    <a option value="80">Acétaminophène - 80mg/ml</a>
-    <a option value="32">Acétaminophène - 160mg/5ml</a>
-  </div>
-</div>
-<p>
-</p>
-  <input id="clickMe" type="button" class="calculatebtn" value="Calculez" onclick="doFunction();" />
-    <form>
-      <label id="dose">Dose à donner (ml): </label>
-      <output id="result"></output>
-    </form>
-<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction1() {
-    document.getElementById("myDropdown1").classList.toggle("show");
-}
-function myFunction2() {
-    document.getElementById("myDropdown2").classList.toggle("show");
-}
-function doFunction(x, y) {
-		return x * y;
-}
-// Compute result of output
-document.getElementById("result").innerHTML = doFunction(5, 3);
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
-
+	<h1>Calculateur de Doses</h1>
+	<div class="weight">
+		<form>
+  			<label id="poids">Poids:</label>
+  			<input type="numeric" id="fname">
+		</form>
+	</div>
+	<div class="unit">
+		<button>Unité</button>
+		<ol>
+			<li>KG</li>
+			<li>LBS</li>
+		</ol>
+	</div>
+	<div class="medication">
+		<button>Médicament</button>
+		<ol>
+			<li>Ibuprofène - 100mg/5ml</li>
+			<li>Ibuprofène - 200mg/5ml</li>
+			<li>Acétaminophène - 80mg/ml</li>
+			<li>Acétaminophène - 160mg/5ml</li>
+		</ol>
+	</div>
+	<div class="computeresult">
+		<form>
+      			<label id="dose">Dose à donner (ml): </label>
+      			<output id="result"></output>
+    		</form>
+	</div>		
 </body>
 </html>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-
-</div>
