@@ -33,3 +33,6 @@ li {
     border: none;
     cursor: pointer;
 }
+label[id="dose"] {
+    float: left;
+}
