@@ -50,6 +50,10 @@
     background-color: grey;
 }
 
+.btn {
+    font-family: 'Ormont_Light';
+}
+
 .btn-lg:hover, .btn-lg:focus {
     background-color: grey;
 }    
