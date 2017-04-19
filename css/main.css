@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Ormont_Light;
+    font-family: "Ormont_Light";
     src:url("https://github.com/patrickboutin/calculateurdedoses/blob/master/css/Ormont_Light.eot?") format('eot'),
         url("https://github.com/patrickboutin/calculateurdedoses/blob/master/css/Ormont_Light.woff") format('woff'),
         url("https://github.com/patrickboutin/calculateurdedoses/blob/master/css/Ormont_Light.ttf") format('truetype'),
@@ -9,7 +9,7 @@
 }
 
 .jumbotron {
-    font-family: Ormont_Light;
+    font-family: "Ormont_Light";
     font-size: 40px;
     font-style: normal;
     font-variant: normal;
