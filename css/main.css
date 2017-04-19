@@ -28,7 +28,7 @@
     font-size: 15px;
 }
 
-.btn-lg {
+.btn-primary {
     background-color: black;
     font-family: 'Ormont_Light';
     font-weight: 700;
@@ -59,7 +59,7 @@
     font-family: 'Ormont_Light';
 }
 
-.btn-lg:hover, .btn-lg:focus {
+.btn-primary:hover, .btn-lg:focus {
     background-color: grey;
 }    
 
