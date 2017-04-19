@@ -23,6 +23,11 @@
     color: black;
 }
 
+.form-control {
+    font-family: 'Ormont_Light';
+    font-size: 15px;
+}
+
 .btn-lg {
     background-color: black;
     font-family: 'Ormont_Light';
