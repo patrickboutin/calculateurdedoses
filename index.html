@@ -16,10 +16,15 @@
 				<label class="sr-only" for="exampleInputAmount">Poids</label>
 				<div class="input-group">
 					<input type="text" class="form-control" id="exampleInputAmount" placeholder="Poids">
-					<div class="input-group-addon">Unité</div>
+					<div class="dropdown">
+						<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Unité</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#">KG</a>
+							<a class="dropdown-item" href="#">LBS</a>
+						</div>
+					</div>
 				</div>
 			</div>
-			<button type="dropdown" class="btn btn-primary">Transfer cash</button>
 		</form>
 		<form>
     			<div class="form-group">
