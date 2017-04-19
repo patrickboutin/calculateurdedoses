@@ -11,7 +11,18 @@
 <body>
 	<h1 class="jumbotron text-center">Calculateur de Doses</h1>
 	<div class="container">
-		 <form>
+		<form class="form-inline">
+			<div class="form-group">
+				<label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+				<div class="input-group">
+					<div class="input-group-addon">$</div>
+					<input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+					<div class="input-group-addon">.00</div>
+				</div>
+			</div>
+			<button type="submit" class="btn btn-primary">Transfer cash</button>
+		</form>
+		<form>
     			<div class="form-group">
 				<label for="poids"><strong>Poids:</strong></label>
       				<input type="number" class="form-control" id="poids" placeholder="Entrer le poids">
