@@ -23,7 +23,7 @@
     color: black;
 }
 
-.btn {
+.btn-lg {
     background-color: black;
     font-family: 'Ormont_Light';
     font-weight: 700;
@@ -50,7 +50,7 @@
     background-color: grey;
 }
 
-.btn:hover, .btn:focus {
+.btn-lg:hover, .btn-lg:focus {
     background-color: grey;
 }    
 
