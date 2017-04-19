@@ -1,5 +1,9 @@
+@font-face {
+    font-family: Ormont;
+    src: url(calculateurdedoses/css/Ormont_Light.woff);
+
 .jumbotron {
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-family: Ormont;
     font-size: 40px;
     font-style: normal;
     font-variant: normal;
