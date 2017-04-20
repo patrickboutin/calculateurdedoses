@@ -8,6 +8,11 @@
     font-style:normal;
 }
 
+body {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
 .jumbotron {
     font-family: 'Ormont_Light';
     font-size: 40px;
